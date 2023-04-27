@@ -1,0 +1,210 @@
+.container {
+    padding: 10px 10%;
+}
+
+body {
+    background-color: #37343D;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #686470;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+    padding-left: 80px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #3c3a3f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/gereja1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#headermedsos {
+    width: 100%;
+    height: 100vh;
+    background-color: #37343D;
+    background-size: cover;
+    background-position: center;
+}
+
+#headergaleri {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/dokumentasi.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#headerkontak {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/gereja1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.header-text {
+    font-size: 30px;
+    margin-top: 15%;
+    color: #fff;
+    padding-left: 200px;
+}
+
+.header-text h1 {
+    font-size: 55px;
+    margin-top: 20px;
+}
+
+.tentangtext {
+    color: white;
+    margin-left: 950px;
+}
+
+.infotext {
+    font-size: 25px;
+    color: #fff;
+    padding-left: 150px;
+    text-align: justify;
+    display: inline-block;
+    padding-top: 50px;
+
+}
+
+.infotext h1 {
+    font-size: 55px;
+    margin-top: 20px;
+}
+
+.infoimg {
+    padding-top: 10px;
+    width: 400px;
+    height: 400px;
+    position: center;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    padding-top: 50px;
+}
+
+.medsostext {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+#youtubeimg {
+    padding-right: 200px;
+    margin-left: 170px;
+}
+
+.medsosimg {
+    width: 500px;
+    height: 420px;
+    padding-top: 100px;
+}
+
+#instagramimg {
+    margin-left: 65px;
+}
+
+.kontaktext {
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+.kontaktext1 {
+    color: whitesmoke;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.kontakimg {
+    width: 50px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.footertext {
+    text-align-last: left;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 180px;
+    margin-left: 100px;
+}
+
+.footertext2 {
+    text-align-last: left;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+.footertext3 {
+    text-align-last: left;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 5px;
+    margin-left: 110px;
+}
+
+.footertext4 {
+    text-align-last: left;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 500px;
+    margin-left: 100px;
+}
+
+.footertext5 {
+    text-align-last: left;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+.Table {
+    font-size: 30px;
+    margin-bottom: 100%;
+    color: #fff;
+    padding-left: 200px;
+}
